@@ -16,7 +16,7 @@ public class MailConfig
 		//Set gmail email id
 		mailSender.setUsername("nimachka1@gmail.com");
 		//Set gmail email password
-		mailSender.setPassword("13091995aa");
+		mailSender.setPassword("******");
 		Properties prop = mailSender.getJavaMailProperties();
 		prop.put("mail.transport.protocol", "smtp");
 		prop.put("mail.smtp.auth", "true");
